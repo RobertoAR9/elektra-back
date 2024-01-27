@@ -97,7 +97,7 @@ To start contributing to our work, please follow the intructions below.
 <!-- USAGE EXAMPLES -->
 ## Docs
 
-_Please refer to the [Documentation](https://api.getpostman.com/collections/32600932-63e8586d-c39e-4506-9885-59487971f737)_
+_Please refer to the [Documentation](https://speeding-comet-286773.postman.co/workspace/My-Workspace~232e4395-f21c-4add-8d66-9bcd83bc8e2a/collection/32600932-e30cd0b1-aa42-4fcc-b2d6-08689e1a972a?action=share&creator=32600932&active-environment=32600932-5ccea480-e880-4940-a402-582c235b63d0)_
 
 
 1. Modeling DB
