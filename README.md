@@ -98,7 +98,21 @@ To start contributing to our work, please follow the intructions below.
 ## Docs
 
 _Please refer to the [Documentation](https://api.getpostman.com/collections/32600932-63e8586d-c39e-4506-9885-59487971f737)_
-
+_Modeling DB [JSON]_
+    ```sh
+    {
+        "email" : "test@gmail.com",
+        "clabe" : "09876123",
+        "properties" : {
+            "transmitter" : "Sucursal", //Sucursal o Línea
+            "type" : "Física", //Física o Digital
+            "amount": 2000,
+            "balance": 1500,
+            "currency" : "MXN",
+            "expiration_date" : "2020-10-13 03:30:00" //Required False
+        }
+    }
+    ```
 
 
 <!-- CONTACT -->
