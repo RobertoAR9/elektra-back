@@ -98,7 +98,10 @@ To start contributing to our work, please follow the intructions below.
 ## Docs
 
 _Please refer to the [Documentation](https://api.getpostman.com/collections/32600932-63e8586d-c39e-4506-9885-59487971f737)_
-_Modeling DB [JSON]_
+
+
+1. Modeling DB
+
     ```sh
     {
         "email" : "test@gmail.com",
