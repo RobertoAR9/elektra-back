@@ -121,6 +121,11 @@ _Please refer to the [Documentation](https://speeding-comet-286773.postman.co/wo
 _Link [Panel-Administration](http://127.0.0.1:8000/admin/cards/)_
 
 
+3. Credentials to acces admin panel and authentication api
+  username: "user-test"
+  pass: "prueba123."
+
+
 <!-- CONTACT -->
 ## Contact
 
