@@ -1,9 +1,14 @@
+"""Admin to Cards panel administration"""
+
+# Libraries
 from django.contrib import admin
+
+# Modules
 from apps.cards.models import Card, PropertiesCard
 
 
 class PropertiesCardInline(admin.TabularInline):
-    """ PropertiesCardInline """
+    """PropertiesCardInline to show properties card in card admin"""
 
     model = PropertiesCard
     fields = (
@@ -23,6 +28,8 @@ class PropertiesCardInline(admin.TabularInline):
 
 
 class CardAdmin(admin.ModelAdmin):
+    """CardAdmin to show cards in admin panel"""
+    
     list_display = (
         "email",
         "clabe",

@@ -1,4 +1,6 @@
-# Create your models here.
+"""Cards models."""
+
+# Libraries
 from django.utils import timezone
 from djongo import models
 from django.utils.translation import gettext_lazy as _

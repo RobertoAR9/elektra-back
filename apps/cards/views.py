@@ -1,12 +1,19 @@
+"""Module for Card views"""
+
+# Libraries
 from rest_framework import permissions
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
 
-from apps.cards.models import Card, PropertiesCard
+# Modules
+from apps.cards.models import Card
 from apps.cards.serializers import CardSerializer
 
+
 class CardView(APIView):
+    """CardView create object card"""
+    
     permission_classes = [permissions.IsAuthenticated]
 
     def post(self, request):
@@ -24,6 +31,8 @@ class CardView(APIView):
     
 
 class CardDetailView(APIView):
+    """CardDetailView get object card and update paid_card"""
+
     permission_classes = [permissions.IsAuthenticated]
 
     def get(sel, request, pk):
