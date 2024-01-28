@@ -117,6 +117,9 @@ _Please refer to the [Documentation](https://speeding-comet-286773.postman.co/wo
     }
     ```
 
+2. Access to the administration panel
+_Link [Panel-Administration](http://127.0.0.1:8000/admin/cards/)_
+
 
 <!-- CONTACT -->
 ## Contact
